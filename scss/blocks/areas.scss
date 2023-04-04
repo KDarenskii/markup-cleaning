@@ -1,0 +1,112 @@
+.areas {
+    padding: 120px 0;
+    @media (max-width: $pc){
+        padding: 75px 0;
+    }
+    @media (max-width: $mobileMiddle){
+        padding: 25px 0;
+        padding-bottom: 50px;
+    }
+    // .areas__wrapper
+    &__wrapper {
+        display: flex;
+        gap: 80px;
+        align-items: center;
+        @media (max-width: $pc){
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            text-align: center;
+        }
+    }
+    // .areas__img
+    &__img {
+        @media (max-width: $pc){
+            display: none;
+        }
+        &_second{
+            display: none;
+            width: 100%;
+            max-width: 400px;
+            border-radius: 50%;
+            border: 1px solid $grey;
+            margin: 0 auto;
+            margin-bottom: 40px;
+            @media (max-width: $pc){
+                display: block;
+            }
+        }
+
+    }
+    // .areas__content
+    &__content {
+    }
+    // .areas__header
+    &__header {
+        margin-bottom: 26px;
+        @media (max-width: $pc){
+            margin-bottom: 46px;
+            max-width: 560px;
+        }
+    }
+    // .areas__title
+    &__title {
+        @media (max-width: $mobileSmall){
+            font-size: 42px;
+        }
+    }
+    // .areas__suptitle
+    &__suptitle {
+        @media (max-width: $mobileSmall){
+            font-size: 19px;
+        }
+    }
+}
+
+.content-areas {
+    // .content-areas__wrapper
+    &__wrapper {
+        display: flex;
+        gap: 56px;
+        margin-bottom: 48px;
+        @media (max-width: $pc){
+            justify-content: center;
+            margin-bottom: 68px;
+        }
+        @media (max-width: $mobileSmall){
+            flex-wrap: wrap;
+            row-gap: 24px;
+        }
+    }
+    // .content-areas__column
+    &__column {
+        &:last-child{
+            @media (max-width: $mobile){
+                margin-right: 15px;
+            }
+        }
+    }
+    // .content-areas__item
+    &__item {
+    }
+    // .content-areas__btn
+    &__btn{
+        text-align: center;
+    }
+}
+
+.item-areas {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    &:not(:last-child){
+        margin-bottom: 24px;
+    }
+    // .item-areas__img
+    &__img {
+    }
+    // .item-areas__room
+    &__room {
+        font-size: 18px;
+        font-weight: 700;
+    }
+}

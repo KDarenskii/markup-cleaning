@@ -1,0 +1,19 @@
+//<====Breakpoints=====>
+$pcBig: 1440px; //большие мониторы
+$pc: 1260px; //пк и ноутбуки
+$tablet: 991.98px; //планшеты
+$mobile: 767.96px; //телефоны
+$mobileMiddle: 677px; //телефоны
+$mobileSmall: 479.98px; //телефоны
+
+//<=====Font========>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+$FontFamily: 'Roboto', sans-serif;
+$fontSize: 21px;
+
+//<=====Colors======>
+$black: #211F54;
+$grey: #6E7191;
+$white: #FFFFFF;
+$blue: #0075FF;
+

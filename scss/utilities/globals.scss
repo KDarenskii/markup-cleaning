@@ -1,0 +1,25 @@
+body{
+    min-height: 100%;
+    font-family: $FontFamily;
+    font-size: $fontSize;
+    font-weight: 400;
+    color: $black;
+    &.lock{
+        overflow: hidden;
+    }
+}
+main{
+    padding-top: 120px;
+    &::after{
+
+    }
+}
+.page{
+    overflow: hidden;
+}
+.container{
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
